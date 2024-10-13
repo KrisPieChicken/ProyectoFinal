@@ -46,16 +46,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainDash.Designer.cs">
+      <DependentUpon>MainDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainTeck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainTeck.Designer.cs">
+      <DependentUpon>MainTeck.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Registrar_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar_Usuario.Designer.cs">
+      <DependentUpon>Registrar_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioComun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioComun.Designer.cs">
+      <DependentUpon>UsuarioComun.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDash.resx">
+      <DependentUpon>MainDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainTeck.resx">
+      <DependentUpon>MainTeck.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +96,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Registrar_Usuario.resx">
+      <DependentUpon>Registrar_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioComun.resx">
+      <DependentUpon>UsuarioComun.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

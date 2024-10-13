@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class Form1 : Form
+    public partial class MainDash_Bodeguero : Form
     {
-        public Form1()
+        public MainDash_Bodeguero()
         {
             InitializeComponent();
         }
