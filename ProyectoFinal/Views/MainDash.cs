@@ -16,5 +16,28 @@ namespace ProyectoFinal
         {
             InitializeComponent();
         }
+
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+            Navigacion();
+        }
+
+
+
+
+
+
+        private static void Navigacion()
+        {
+            Agregar_Insumos agregar_Insumos = new Agregar_Insumos();
+            agregar_Insumos.Show();
+        }
     }
 }

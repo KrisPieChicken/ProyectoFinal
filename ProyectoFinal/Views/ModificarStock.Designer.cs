@@ -33,6 +33,7 @@
             this.btn_Guardar_Modificacion = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btn_Volver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_Nuevo_Nombre
@@ -51,6 +52,7 @@
             // 
             // btn_Guardar_Modificacion
             // 
+            this.btn_Guardar_Modificacion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Guardar_Modificacion.Location = new System.Drawing.Point(41, 145);
             this.btn_Guardar_Modificacion.Name = "btn_Guardar_Modificacion";
             this.btn_Guardar_Modificacion.Size = new System.Drawing.Size(134, 32);
@@ -61,32 +63,46 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(29, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(54, 17);
             this.label1.TabIndex = 4;
             this.label1.Text = "Nombre";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(29, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(58, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Cantidad";
+            // 
+            // btn_Volver
+            // 
+            this.btn_Volver.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Volver.Location = new System.Drawing.Point(41, 193);
+            this.btn_Volver.Name = "btn_Volver";
+            this.btn_Volver.Size = new System.Drawing.Size(134, 25);
+            this.btn_Volver.TabIndex = 14;
+            this.btn_Volver.Text = "Volver";
+            this.btn_Volver.UseVisualStyleBackColor = true;
             // 
             // ModificarStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(223, 208);
+            this.ClientSize = new System.Drawing.Size(223, 230);
+            this.Controls.Add(this.btn_Volver);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Guardar_Modificacion);
             this.Controls.Add(this.txt_Nueve_Cantidad);
             this.Controls.Add(this.txt_Nuevo_Nombre);
             this.Name = "ModificarStock";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ModificarStock";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,5 +116,6 @@
         private System.Windows.Forms.Button btn_Guardar_Modificacion;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btn_Volver;
     }
 }

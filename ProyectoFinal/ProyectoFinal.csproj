@@ -46,54 +46,82 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.cs">
+    <Compile Include="Datos\Listados.cs" />
+    <Compile Include="Views\Agregar_Insumos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Views\Agregar_Insumos.Designer.cs">
+      <DependentUpon>Agregar_Insumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainDash.cs">
+    <Compile Include="Views\MainDash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainDash.Designer.cs">
+    <Compile Include="Views\MainDash.Designer.cs">
       <DependentUpon>MainDash.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainTeck.cs">
+    <Compile Include="Views\MainTeck.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainTeck.Designer.cs">
+    <Compile Include="Views\MainTeck.Designer.cs">
       <DependentUpon>MainTeck.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModificarStock.cs">
+    <Compile Include="Views\ModificarStock.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModificarStock.Designer.cs">
+    <Compile Include="Views\ModificarStock.Designer.cs">
       <DependentUpon>ModificarStock.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registrar_Usuario.cs">
+    <Compile Include="Views\Registrar_Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registrar_Usuario.Designer.cs">
+    <Compile Include="Views\Registrar_Usuario.Designer.cs">
       <DependentUpon>Registrar_Usuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="UsuarioComun.cs">
+    <Compile Include="Views\Solicitud_Insumos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UsuarioComun.Designer.cs">
+    <Compile Include="Views\Solicitud_Insumos.Designer.cs">
+      <DependentUpon>Solicitud_Insumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UsuarioComun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UsuarioComun.Designer.cs">
       <DependentUpon>UsuarioComun.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Login.resx">
+    <Compile Include="Views\VerSolicitudesRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\VerSolicitudesRegistro.Designer.cs">
+      <DependentUpon>VerSolicitudesRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ver_Solicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ver_Solicitud.Designer.cs">
+      <DependentUpon>Ver_Solicitud.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Agregar_Insumos.resx">
+      <DependentUpon>Agregar_Insumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainDash.resx">
+    <EmbeddedResource Include="Views\MainDash.resx">
       <DependentUpon>MainDash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainTeck.resx">
+    <EmbeddedResource Include="Views\MainTeck.resx">
       <DependentUpon>MainTeck.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModificarStock.resx">
+    <EmbeddedResource Include="Views\ModificarStock.resx">
       <DependentUpon>ModificarStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -105,11 +133,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Registrar_Usuario.resx">
+    <EmbeddedResource Include="Views\Registrar_Usuario.resx">
       <DependentUpon>Registrar_Usuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UsuarioComun.resx">
+    <EmbeddedResource Include="Views\Solicitud_Insumos.resx">
+      <DependentUpon>Solicitud_Insumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UsuarioComun.resx">
       <DependentUpon>UsuarioComun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\VerSolicitudesRegistro.resx">
+      <DependentUpon>VerSolicitudesRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ver_Solicitud.resx">
+      <DependentUpon>Ver_Solicitud.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -124,5 +161,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
