@@ -14,7 +14,7 @@ namespace ProyectoFinal
     {
         public Agregar_Insumos()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void txt_Cantidad_Minima_KeyPress(object sender, KeyPressEventArgs e) // Permite sólo números
