@@ -146,9 +146,9 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(18, 14);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(32, 17);
+            this.label7.Size = new System.Drawing.Size(95, 17);
             this.label7.TabIndex = 14;
-            this.label7.Text = "RUT";
+            this.label7.Text = "RUT (Sin guion)";
             // 
             // btn_Volver
             // 
