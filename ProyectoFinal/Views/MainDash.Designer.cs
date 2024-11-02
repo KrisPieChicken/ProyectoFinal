@@ -60,6 +60,7 @@
             this.porIDToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.grillaStockInsumos = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCargarImagen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fotoPerfil)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -327,11 +328,21 @@
             this.panel2.Size = new System.Drawing.Size(629, 497);
             this.panel2.TabIndex = 1;
             // 
+            // btnCargarImagen
+            // 
+            this.btnCargarImagen.Location = new System.Drawing.Point(104, 197);
+            this.btnCargarImagen.Name = "btnCargarImagen";
+            this.btnCargarImagen.Size = new System.Drawing.Size(99, 22);
+            this.btnCargarImagen.TabIndex = 5;
+            this.btnCargarImagen.Text = "Cargar imagen";
+            this.btnCargarImagen.UseVisualStyleBackColor = true;
+            // 
             // MainDash_Bodeguero
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 521);
+            this.Controls.Add(this.btnCargarImagen);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCerrarSesion);
             this.Controls.Add(this.fotoPerfil);
@@ -386,6 +397,7 @@
         private System.Windows.Forms.ToolStripMenuItem porIDToolStripMenuItem1;
         private System.Windows.Forms.DataGridView grillaStockInsumos;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnCargarImagen;
     }
 }
 
